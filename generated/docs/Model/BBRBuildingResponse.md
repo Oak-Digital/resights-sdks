@@ -1,0 +1,103 @@
+# # BBRBuildingResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **mixed** | Persistent unik nøgle. |
+**namespace** | **mixed** |  |
+**status** | **mixed** | Angivelse af hvor et forvaltningsobjekt er i sin livscyklus. | [optional]
+**business_process** | **mixed** | Den manuelle eller IT-understøttede proces hvori forretningsområdet håndterer hændelsen. | [optional]
+**business_area** | **mixed** | Den del af den offentlige forretning der håndterer hændelsen og derved udvirker ændringen i data. | [optional]
+**business_event** | **mixed** | Den begivenhed i virkeligheden som udløste ændringen i data. | [optional]
+**registration_from** | **mixed** | Tidspunktet hvor registreringen er foretaget. |
+**registration_to** | **mixed** | Tidspunktet hvor en ny registrering er foretaget på objektet, og hvor denne version således ikke længere er den seneste. | [optional]
+**registration_actor** | **mixed** | Den aktør der har foretaget registreringen. |
+**effect_from** | **mixed** | Tidspunktet hvorfra objektet har virkning. |
+**effect_to** | **mixed** | Tidspunktet hvor objektets virkning ophører. | [optional]
+**effect_actor** | **mixed** | Den aktør der har afstedkommet objektets virkning. |
+**municipality_code** | **mixed** |  | [optional]
+**byg007_building_number** | **mixed** | Angiver bygningens nummer indenfor vurderingsejendommen | [optional]
+**byg021_building_usage** | **mixed** | Bygningens hovedanvendelse. Har en bygning flere anvendelser registreres den anvendelse som hovedparten af bygningen har. | [optional]
+**byg024_number_apartments_with_kitchen** | **mixed** | Antal lejligheder (enheder) med eget køkken i bygningen. | [optional]
+**byg025_number_apartments_without_kitchen** | **mixed** | Antal lejligheder uden køkken i bygning. | [optional]
+**byg026_construction_year** | **mixed** | Angiver bygningens opførselsår. | [optional]
+**byg027_rebuilding_year** | **mixed** | Angiver bygningens seneste om- eller tilbygningsår. | [optional]
+**byg029_temporary_building_date** | **mixed** | Angiver udløbsdato for midlertidig opført bygning. | [optional]
+**byg030_water_supply** | **mixed** | Angiver bygningens vandforsyning. | [optional]
+**byg031_drainage** | **mixed** | Angiver bygningens afløbsforhold. | [optional]
+**byg032_material_exterior_wall** | **mixed** | Angiver bygningens ydervægsmateriale. | [optional]
+**byg033_material_roofing** | **mixed** | Angiver bygningens tagdækningsmateriale. | [optional]
+**byg034_material_supplementary_exterior_wall** | **mixed** | Angiver bygningens supplerende ydervægsmateriale. | [optional]
+**byg035_material_supplementary_roofing** | **mixed** | Angiver bygningens supplerende tagdækningsmateriale. | [optional]
+**byg036_material_contains_asbestos** | **mixed** | Angivelse af om der er konstateret asbestholdigt materiale i ydervæg eller tagdækning. | [optional]
+**byg037_material_source** | **mixed** | Angiver kilde til bygningens materialer. | [optional]
+**byg038_area_building_total** | **mixed** | Angiver bygningens samlede areal. | [optional]
+**byg039_area_building_residential** | **mixed** | Angiver bygningens samlede boligareal. | [optional]
+**byg040_area_building_commercial** | **mixed** | Angiver bygningens samlede erhvervsareal. | [optional]
+**byg041_area_constructed** | **mixed** | Angiver bygningens bebyggede areal. | [optional]
+**byg042_area_built_in_garage** | **mixed** | Angiver areal af indbygget garage. | [optional]
+**byg043_area_built_in_carport** | **mixed** | Angiver areal af indbygget carport. | [optional]
+**byg044_area_built_in_outhouse** | **mixed** | Angiver areal af indbygget udhus. | [optional]
+**byg045_area_built_in_patio** | **mixed** | Angiver areal af indbygget udstue. | [optional]
+**byg046_area_closed_building_areas_total** | **mixed** | Angiver areal af lukkede overdækninger på hele bygningen. | [optional]
+**byg047_area_waste_rooms_terrain_level** | **mixed** | Angiver areal af samtlige affaldsrum i terrænniveau. | [optional]
+**byg048_area_other** | **mixed** | Angiver andet areal i bygning. | [optional]
+**byg049_area_covered** | **mixed** | Angiver arealet af overdækket areal på bygning. | [optional]
+**byg050_area_open_roofs_total** | **mixed** | Angiver det samlede areal af åbne overdækninger på bygningen. | [optional]
+**byg051_area_access** | **mixed** | Angiver det samlede adgangsareal på bygning. | [optional]
+**byg052_area_carport_calculation_principle** | **mixed** | Angiver beregningsprincip for areal af carport. | [optional]
+**byg053_area_building_source** | **mixed** | Angiver kilde til oplysninger om bygningens arealer. | [optional]
+**byg054_number_floors** | **mixed** | Angiver antal etager i bygningen. | [optional]
+**byg055_deviating_floors** | **mixed** | Angiver om bygningen indeholder afvigende etager. | [optional]
+**byg056_heating_installation** | **mixed** | Angiver bygningens primære varmeinstallation. | [optional]
+**byg057_heating_medium** | **mixed** | Angiver bygningens primære opvarmingsmiddel. | [optional]
+**byg058_heating_supplementary** | **mixed** | Angiver supplerende varmeinstallation i bygningen. | [optional]
+**byg069_number_seats_emergency_room** | **mixed** | Angiver antallet at sikringsrumpladser i bygningen. | [optional]
+**byg070_preservation** | **mixed** | Angiver om bygningen er fredet. | [optional]
+**byg071_preservation_reference** | **mixed** | Linker til Kulturstyrelsens registrering i FBB (Fredede og Bevaringsværdige Bygninger). | [optional]
+**byg094_revision_date** | **mixed** | Angiver revisionsdato for seneste ændring af geometrioplysninger. | [optional]
+**byg111_storm_council_flooding_risk** | **mixed** | Angiver selvrisiko ved stormskade. | [optional]
+**byg112_storm_council_flooding_risk_date** | **mixed** | Angiver ajourføringsdato for registrering fra Stormrådet. | [optional]
+**byg113_building_damage_insurance** | **mixed** | Angiver navnet på byggeskadeforsikringsselskab | [optional]
+**byg114_building_damage_insurance_date** | **mixed** | Angiver ikræfttrædelsesdato for byggeskadeforsikring. | [optional]
+**byg119_discharge_permit** | **mixed** | Angiver status for udledningstilladelse på bygningen. | [optional]
+**byg121_building_damage_insurance_covered** | **mixed** | Angiver om bygningen er omfattet af byggeskadeforsikring. | [optional]
+**byg122_validation_date** | **mixed** | Angiver gyldighedsdato i forbindelse med vurdering. | [optional]
+**byg123_wastewater_supply_membership** | **mixed** | Angiver om der for bygningen er indgået kontraktligt medlemskab af spildevandsforsyningsselskab. | [optional]
+**byg124_wastewater_drainage_order** | **mixed** | Angiver om der er givet påbud vedr. spildevandsafledning på bygningen. | [optional]
+**byg125_wastewater_drainage_deadline** | **mixed** | Angiver dato for frist for evt. påbud vedr. spildevandsafledning på bygningen. | [optional]
+**byg126_permission_exit** | **mixed** | Angiver tilladelse til udtræden af det offentlige kloakfællesskab. | [optional]
+**byg127_permission_exit_date** | **mixed** | Angiver dato for tilladelse til udtræden af det offentlige kloakfællesskab. | [optional]
+**byg128_permission_alternative_disposal_diversion** | **mixed** | Angiver tilladelse til alternativ bortskaffelse eller afledning af spildevand. | [optional]
+**byg129_permission_alternative_disposal_diversion_date** | **mixed** | Dato for tilladelse til alternativ bortskaffelse eller afledning af spildevand. | [optional]
+**byg130_area_exterior_insulation** | **mixed** | Angiver areal af udvendig efterisolering. | [optional]
+**byg131_exemption_collective_heating_supply** | **mixed** | Angiver om der er givet dispensation eller fritagelse ift kollektiv varmeforsyning. | [optional]
+**byg132_exemption_collective_heating_supply_date** | **mixed** | Angiver dato for dispensation eller fritagelse ift kollektiv varmeforsyning. | [optional]
+**byg133_coordinate_source** | **mixed** | Kodeliste der angiver kilden til geometrioplysninger. | [optional]
+**byg134_coordinate_quality** | **mixed** | Kodeliste der angiver kvaliteten af geometrioplysninger. | [optional]
+**byg135_coordinate_supplementary_information** | **mixed** | Angiver om det fysiske objekt koordinatsættet referer til ligger under eller over jorden. | [optional]
+**byg136_placement_maritime_territory** | **mixed** | Angiver om objekt ligger på søterritorie. | [optional]
+**byg137_banedanmark_building_number** | **mixed** | Angiver Banedanmarks BGV-nummer og bygværksnummer | [optional]
+**byg140_easement_rental_property_date** | **mixed** | Dato for eventuel tinglyst servitut der undtager en udlejningsejendom for byggeskadeforsikring | [optional]
+**byg150_material_floor** | **mixed** | Oplysning som kan knyttes til en bygning til erhvervsformål. Angiver typen af gulvbelægning fx beton | [optional]
+**byg151_clearance_height** | **mixed** | Oplysning som kan knyttes til en bygning til lagerformål, garage e.l. Angiver den maksimale højde af køretøjer der kan køre ind og ud af bygningen | [optional]
+**byg152_construction_open_closed** | **mixed** | Information om bygningen udgør en åben eller lukket konstruktion, dvs. med eller uden ydervægge | [optional]
+**byg153_construction_conditions** | **mixed** | Information om typen af bygningens bærende konstruktion | [optional]
+**byg301_relocation_type** | **mixed** | Angiver type af flytning af en bygning. | [optional]
+**byg302_municipality_newcomers** | **mixed** | Angiver den kommune bygningen flyttes til. | [optional]
+**byg403_storm_council_supplementary_comments** | **mixed** | Angiver øvrige bemærkninger fra stormrådet. | [optional]
+**byg404_coordinate** | **mixed** | Angiver bygningens geografiske repræsentation i form af et punkt. | [optional]
+**byg406_coordinate_system** | **mixed** | Angiver geografisk koordinatsystem og projektion. | [optional]
+**byg500_note** | **mixed** | Beskrivende tekstnotat om særlige forhold for dette BBR-element | [optional]
+**slks** | [**\OpenAPI\Client\Model\SLKSFBB**](SLKSFBB.md) |  | [optional]
+**energy_label** | [**\OpenAPI\Client\Model\EnergyLabelSimple**](EnergyLabelSimple.md) |  | [optional]
+**access_address** | [**\OpenAPI\Client\Model\DARAccessAddress**](DARAccessAddress.md) |  | [optional]
+**floor** | [**\OpenAPI\Client\Model\BBRFloorAggs**](BBRFloorAggs.md) |  | [optional]
+**opg020_elevator** | **mixed** |  |
+**number_units** | **mixed** |  |
+**number_floors** | **mixed** |  |
+**number_staircases** | **mixed** |  |
+**plot_id** | **mixed** |  |
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

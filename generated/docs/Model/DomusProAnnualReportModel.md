@@ -1,0 +1,121 @@
+# # DomusProAnnualReportModel
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**loans** | **mixed** |  |
+**fiscal_year** | [**\OpenAPI\Client\Model\DomusProFiscalYearModel**](DomusProFiscalYearModel.md) |  |
+**allocation_of_share_value_id** | **mixed** |  |
+**allocation_of_share_value_name** | **mixed** | Princip for fordeling af AndelsVaerdi mellem andelshavere. M2, indskud, m.m. samt evt. knæk |
+**commercial_leases_square_meters** | **mixed** | B4 Erhvervslejemål - m2 | [optional]
+**residential_leases_square_meters** | **mixed** | B3 Boliglejemål - m2 | [optional]
+**cooperative_housings_square_meters** | **mixed** | B1 Andelsboliger - m2 | [optional]
+**acquisition_price_per_square_meter_total** | **mixed** | EjdVAnskPerM2Total | [optional]
+**acquisition_price_per_square_meter_cooperative_housing** | **mixed** | EjdVAnskPerM2Andel | [optional]
+**average_property_charge_per_square_meter_cooperative_housing** | **mixed** | BoafgPerM2Andel | [optional]
+**debt_less_assets_per_square_meter_cooperative_housing** | **mixed** | GFOAPerM2Andel | [optional]
+**income_per_square_meter_commercial_lease** | **mixed** | Boligleje pr. m² boliglejemål | [optional]
+**distributional_sum** | **mixed** | FordelingstalSum | [optional]
+**file_token** | **mixed** | Filetoken which can be used in fetchFile method of documentWebservice |
+**comments** | **mixed** | Comments from DomusPro | [optional]
+**number_of_commercial_leases** | **mixed** | B4 Erhvervslejemål - antal | [optional]
+**number_of_residential_leases** | **mixed** | B3 Boliglejemål - antal | [optional]
+**number_of_cooperative_housings** | **mixed** | B1 Andelsboliger - antal | [optional]
+**official_assessment** | **mixed** | EjdVaerdiOffVurd | [optional]
+**official_assessment_per_square_meter_cooperative_housing** | **mixed** | EjdVOffPerM2Andel | [optional]
+**official_assessment_per_square_meter_total** | **mixed** | EjdVOffPerM2Total | [optional]
+**valuer_assessment_per_square_meter_total** | **mixed** | EjdVABPerM2Total | [optional]
+**other_costs_percentage** | **mixed** | OevrigeOmkPerOFA | [optional]
+**property_charge_percentage** | **mixed** | BoafgPerIndtIAlt | [optional]
+**property_value** | **mixed** | EjdVaerdiABKr. Selve ejendommens værdi sådan som den indgår i beregningen af AB- krone. ***** AKTIVER OG PASSIVER (IDEELT SET EFTER ANDELSBOLIGFORENINGSLOVEN) M.M. ***** |
+**repayments_percentage** | **mixed** | AfdragPerOFA | [optional]
+**share_value** | **mixed** | AndelsVaerdi. Samlet Andelsværdi jf. Regnskab | [optional]
+**suggested_share_value_per_square_meter_cooperative_housing** | **mixed** | AndelsVPerM2Andel | [optional]
+**total_square_meters** | **mixed** | B6 Enheder i alt - m2 | [optional]
+**total_units** | **mixed** | B6 Enheder i alt - antal | [optional]
+**value_principle_id** | **mixed** |  |
+**value_principle_name** | **mixed** | Methodname of how the property is valued |
+**balance** | **mixed** | Balancesum |
+**equity** | **mixed** | Egenkapital | [optional]
+**general_assembly_date** | **mixed** | GeneralforsDato | [optional]
+**property_charges** | **mixed** | IndtBoligafgift | [optional]
+**report_end_date** | **mixed** | RegnskabSlutDato |
+**report_start_date** | **mixed** | RegnskabStartDato |
+**result** | **mixed** | Resultat |
+**total_debt** | **mixed** | GaeldIAlt | [optional]
+**total_income** | **mixed** | IndtIAlt |
+**financial_expenses_budget** | **mixed** |  | [optional]
+**maintenance_budget** | **mixed** |  | [optional]
+**property_charges_budget** | **mixed** |  | [optional]
+**repayments_budget** | **mixed** |  | [optional]
+**total_income_budget** | **mixed** |  | [optional]
+**general_assembly_share_value** | **mixed** | AndelsVaerdiJfGen. Samlet Andelsværdi jf. Generalforsamling | [optional]
+**average_ongoing_maintenance_costs_per_square_meter** | **mixed** | M1 Vedligeholdelse, løbende (gns. kr. pr. m²) | [optional]
+**average_rebuilding_maintenance_costs_per_square_meter** | **mixed** | M2 Vedligeholdelse, genopretning og renovering (gns. kr. pr. m²) | [optional]
+**buy_back_clause_registered** | **mixed** | G3 Er der tinglyst en tilbagekøbsklausul (hjemfaldspligt) på foreningens ejendom | [optional]
+**equity_release_percentage** | **mixed** | P Friværdi (gældsforpligtelser sammenholdt med ejendommens regnskabsmæssige værdi) | [optional]
+**financial_expenses** | **mixed** |  | [optional]
+**expenses_extraordinary** | **mixed** | Andre ekstraordinære udgifter | [optional]
+**maintenance** | **mixed** | Vedligeholdelsesomkostninger, løbende | [optional]
+**more_debt_than_share_value** | **mixed** | E1 Hæfter den enkelte andelshaver for mere, end det der er betalt for andelen | [optional]
+**must_return_grants_if_dissolved** | **mixed** | G1 Har foreningen modtaget offentligt tilskud, som skal tilbagebetales ved foreningens opløsning | [optional]
+**repayments_per_square_meter_cooperative_housing** | **mixed** | R Årets afdrag pr. andels-m² | [optional]
+**reserves_per_general_assembly** | **mixed** | F3 Generalforsamlingsbestemte reserver | [optional]
+**subsidy_provisions_imposed** | **mixed** | G2 Er foreningens ejendom pålagt tilskudsbestemmelser, jf. lov om frigørelse for visse tilskudsbestemmelser m.v. (lovbekendtgørelse nr. 978 af 19. oktober 2009) | [optional]
+**report_standard_version** | **mixed** | Regnskabsstandards version |
+**report_standard_name** | **mixed** | Regnskabsstandards forklaring |
+**new_average_property_charge_per_square_meter_cooperative_housing** | **mixed** | H1 Boligafgift kr pr. m2 andel | [optional]
+**market_value_of_mortgage_debt** | **mixed** | Kursværdi af prioritetsgæld | [optional]
+**ongoing_trials** | **mixed** | Igangværende retssager | [optional]
+**payments_on_mortgage_debt** | **mixed** | Ydelser på prioritetsgæld | [optional]
+**current_assets** | **mixed** | Omsætningsaktiver | [optional]
+**accommodation_charge** | **mixed** | % af boligafgift | [optional]
+**price_per_square_meter_share** | **mixed** | Kr. pr m^2 andel | [optional]
+**per_distribution_number** | **mixed** | Pr. fordelingstal | [optional]
+**repayments_regular** | **mixed** | Årets afdrag (ordinære) | [optional]
+**adjusted_liquidity_earnings** | **mixed** | Korrigeret likviditetsresultat | [optional]
+**stress_performance_rate** | **mixed** | Stressydelsesssats | [optional]
+**stress_test_mandatory** | **mixed** | Indicates if stress test is mandatory for this annual report or not. | [optional]
+**stress_test_anyway** | **mixed** | Stresstest alligevel | [optional]
+**stress_missing_info** | **mixed** | StressManglerInfo | [optional]
+**stress_impact_association** | **mixed** | Streskonsekvens forening | [optional]
+**stress_optimistic_risk** | **mixed** | Der findes bemærkninger vedr. stressberegningen | [optional]
+**stress_optimistic_note** | **mixed** | Bemærkninger til stressudregning | [optional]
+**net_stressful_influences** | **mixed** | Netto stresspåvirkning | [optional]
+**number_of_other_leases** | **mixed** | B5 Øvrige lejemål, kældre, garager m.v. - antal | [optional]
+**other_leases_square_meters** | **mixed** | B5 Øvrige lejemål, kældre, garager m.v. - m2 | [optional]
+**valuer_assessment_per_square_meter_cooperative_housing** | **mixed** | EjdVABPerM2Andel | [optional]
+**maintenance_rebuilding** | **mixed** | Vedligeholdelsesomkostninger, genopretning og renovering | [optional]
+**maintenance_rebuilding_budget** | **mixed** | Budgetterede vedligeholdelsesomkostninger, løbende | [optional]
+**new_income_per_square_meter_commercial_lease** | **mixed** | H2 Erhvervslejeindtægt kr pr. m2 andel | [optional]
+**new_income_per_square_meter_residential_lease** | **mixed** | H3 Boliglejeindtægt kr pr. m2 andel | [optional]
+**income_per_square_meter_residential_lease** | **mixed** | Boligafgift pr. m² andel | [optional]
+**commercial_cooperative_share_square_meters** | **mixed** | B2 Erhvervsandele i m² | [optional]
+**number_of_commercial_cooperative_shares** | **mixed** | B2 Antal erhvervsandele | [optional]
+**expenses_large_construction** | **mixed** | Større byggesager | [optional]
+**extraordinary_income** | **mixed** |  | [optional]
+**income_sale** | **mixed** | Lejlighedssalg | [optional]
+**market_value_of_index_loans** | **mixed** | Kursværdi af indexlån | [optional]
+**market_value_of_swap_agreement** | **mixed** | Kursværdi af swapaftale | [optional]
+**liquid_corrections** | **mixed** | Øvrige likviditetskorrektioner | [optional]
+**nominal_value_of_index_loans** | **mixed** | Nominel værdi af indexlån | [optional]
+**financial_costs_percentage** | **mixed** | FinansOmkNetPerOFA | [optional]
+**maintenance_costs_percentage** | **mixed** | VedligeholdPerOFA | [optional]
+**result_budget** | **mixed** | ResultatBud | [optional]
+**approved_by_general_assembly** | **mixed** | ErGodkentPaGen | [optional]
+**is_association_creation** | **mixed** | Er stiftelse. Kan antage værdierne Sand eller falsk eller null. Angiver om foreningen for dette regnskab er under stiftelse. | [optional]
+**public_allowed** | **mixed** | Angiver om oplysninger fra dette regnsskab må bruges på offentlige portaler. | [optional]
+**deleted** | **mixed** |  | [optional]
+**published_date** | **mixed** |  | [optional]
+**reserves_per_general_assembly_per_square_meter** | **mixed** |  | [optional]
+**percentage_reserves_less_property_value** | **mixed** |  | [optional]
+**maintenance_budget_per_square_meter** | **mixed** |  | [optional]
+**cooperate_crown** | **mixed** |  | [optional]
+**debt_excluding_assets** | **mixed** |  | [optional]
+**mortgaging_ratio** | **mixed** |  | [optional]
+**reserves_per_square_meter_cooperative_housing** | **mixed** | ReservUAPerM2Andel | [optional]
+**property_value_per_square_meter** | **mixed** |  | [optional]
+**gearing** | **mixed** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
